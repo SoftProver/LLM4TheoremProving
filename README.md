@@ -37,3 +37,21 @@
 2. **Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis** `ICML 2025` [[paper]](https://arxiv.org/abs/2501.18310)
 
    *Haoxiong Liu, Jiacheng Sun, Zhenguo Li, Andrew C Yao*
+
+## Premise Selection
+
+1. **LeanDojo: Theorem Proving with Retrieval-Augmented Language Models** `NeurIPS 2023 dataset and benchmark track` [[paper]](https://arxiv.org/abs/2306.15626)
+
+   *Kaiyu Yang, Aidan M. Swope, Alex Gu, Rahul Chalamala, Peiyang Song, Shixing Yu, Saad Godil, Ryan Prenger, Anima Anandkumar*
+
+2. **DeepMath - Deep Sequence Models for Premise Selection** `NeurIPS 2016` [[paper]](https://arxiv.org/abs/1606.04442)
+
+   *Alex A. Alemi, Francois Chollet, Niklas Een, Geoffrey Irving, Christian Szegedy, Josef Urban*
+
+3. **HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving** `ICLR 2017` [[paper]](https://arxiv.org/abs/1703.00426)
+
+   *Cezary Kaliszyk, François Chollet, Christian Szegedy*
+
+4. **Premise Selection for Theorem Proving by Deep Graph Embedding** `NeurIPS 2017` [[paper]](https://arxiv.org/abs/1709.09994)
+
+   *Mingzhe Wang, Yihe Tang, Jian Wang, Jia Deng*
