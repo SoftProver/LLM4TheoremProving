@@ -37,3 +37,26 @@
 2. **Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis** `ICML 2025` [[paper]](https://arxiv.org/abs/2501.18310)
 
    *Haoxiong Liu, Jiacheng Sun, Zhenguo Li, Andrew C Yao*
+
+## Large language model (LLM)-based ATPs
+
+1. **Baldur: Whole-Proof Generation and Repair with Large Language Models** `ESEC/FSE 2023` [[paper]](https://arxiv.org/abs/2303.04910)
+
+   *Emily First, Markus N. Rabe, Talia Ringer, Yuriy Brun*
+
+2. **STP: Self-play LLM Theorem Provers with Iterative Conjecturing and Proving** `TBD` [[paper]](https://arxiv.org/abs/2502.00212)
+
+   *Kefan Dong, Tengyu Ma*
+
+## Autoformalization
+
+
+## Specification
+
+1. **nl2spec: Interactively Translating Unstructured Natural Language to Temporal Logics with Large Language Models** `CAV 2023` [[paper]](https://arxiv.org/abs/2303.04864)
+
+   *Matthias Cosler, Christopher Hahn, Daniel Mendoza, Frederik Schmitt, Caroline Trippel*
+
+2. **Enchanting Program Specification Synthesis by Large Language Models using Static Analysis and Program Verification** `CAV 2024` [[paper]](https://arxiv.org/abs/2404.00762)
+
+   *Cheng Wen, Jialun Cao, Jie Su, Zhiwu Xu, Shengchao Qin, Mengda He, Haokun Li, Shing-Chi Cheung, Cong Tian*
