@@ -44,9 +44,6 @@
 
    *Emily First, Markus N. Rabe, Talia Ringer, Yuriy Brun*
 
-2. **STP: Self-play LLM Theorem Provers with Iterative Conjecturing and Proving** `TBD` [[paper]](https://arxiv.org/abs/2502.00212)
-
-   *Kefan Dong, Tengyu Ma*
 
 ## Autoformalization
 
@@ -79,3 +76,7 @@
 4. **Premise Selection for Theorem Proving by Deep Graph Embedding** `NeurIPS 2017` [[paper]](https://arxiv.org/abs/1709.09994)
 
    *Mingzhe Wang, Yihe Tang, Jian Wang, Jia Deng*
+
+5. **Graph2Tac: Online Representation Learning of Formal Math Concepts** `ICML 2024` [[paper]](https://arxiv.org/abs/2401.02949)
+
+   *Lasse Blaauwbroek, Miroslav Olšák, Jason Rute, Fidel Ivan Schaposnik Massolo, Jelle Piepenbrock, Vasily Pestun*
