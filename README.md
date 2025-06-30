@@ -11,6 +11,14 @@
   
    *Huaiyuan Ying, Zijian Wu, Yihan Geng, Jiayu Wang, Dahua Lin, Kai Chen*
 
+2. **CLEVER: Curated Lean Verified Code Generation Benchmark** `arXiv 2025` [[paper]](https://arxiv.org/abs/2505.13938)
+
+   *Amitayush Thakur, Jasper Lee, George Tsoukalas, Meghana Sistla, Matthew Zhao, Stefan Zetzsche, Greg Durrett, Yisong Yue, Swarat Chaudhuri*
+
+3. **VERINA: Benchmarking Verifiable Code Generation** `arXiv 2025` [[paper]](https://arxiv.org/abs/2505.23135)
+
+   *Zhe Ye, Zhengxu Yan, Jingxuan He, Timothe Kasriel, Kaiyu Yang, Dawn Song*
+
 ## Data Synthesis
 1. **STP: Self-play LLM Theorem Provers with Iterative Conjecturing and Proving**
 `ICML 2025` [[paper]](https://arxiv.org/abs/2502.00212)
