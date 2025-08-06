@@ -19,14 +19,14 @@
 
    *Zhe Ye, Zhengxu Yan, Jingxuan He, Timothe Kasriel, Kaiyu Yang, Dawn Song*
 
-## Data Synthesis
+### Formal Conjecture
 1. **STP: Self-play LLM Theorem Provers with Iterative Conjecturing and Proving**
 `ICML 2025` [[paper]](https://arxiv.org/abs/2502.00212)
 
    *Kefan Dong, Tengyu Ma*
 
 
-## Hammer-like ATPs
+### Hammer-like Prover
 1. **Lean-SMT: An SMT tactic for discharging proof goals in Lean** `CAV 2025` [[paper]](https://arxiv.org/abs/2505.15796)
 
    *Abdalrhman Mohamed, Tomaz Mascarenhas, Harun Khan, Haniel Barbosa, Andrew Reynolds, Yicheng Qian, Cesare Tinelli, and Clark Barrett*
@@ -35,7 +35,13 @@
 
    *Yicheng Qian, Joshua Clune, Clark Barrett, Jeremy Avigad*
 
-## Draft, Sketch, Prove (DSP)-like ATPs
+### Tree Search-based Prover
+
+1. MPS-Prover: Advancing Stepwise Theorem Proving by Multi-Perspective Search and Data Curation `arXiv 2025` [[paper]](https://arxiv.org/abs/2505.10962)
+
+   *Zhenwen Liang, Linfeng Song, Yang Li, Tao Yang, Feng Zhang, Haitao Mi, Dong Yu*
+
+### Draft, Sketch, Prove (DSP)-like Prover
 
 1. **Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs** `ICLR 2023` [[paper]](https://arxiv.org/abs/2210.12283)
 
@@ -46,11 +52,18 @@
 
    *Haoxiong Liu, Jiacheng Sun, Zhenguo Li, Andrew C Yao*
 
-## Large language model (LLM)-based ATPs
+## Large language model (LLM)-based Whole Proof Generator
 
 1. **Baldur: Whole-Proof Generation and Repair with Large Language Models** `ESEC/FSE 2023` [[paper]](https://arxiv.org/abs/2303.04910)
 
    *Emily First, Markus N. Rabe, Talia Ringer, Yuriy Brun*
+
+## Neuro-symbolic Improvements
+
+1. **StepFun-Prover Preview: Let’s Think and Verify Step by Step** `arXiv 2025` [[paper]](https://arxiv.org/pdf/2507.20199)
+
+   *Shijie Shang, Ruosi Wan, Yue Peng, Yutong Wu, Xiong-hui Chen, Jie Yan, Xiangyu Zhang*
+
 
 
 ## Autoformalization
