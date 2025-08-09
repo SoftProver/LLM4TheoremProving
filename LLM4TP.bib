@@ -49,6 +49,7 @@
 @String(CADE = {International Conference on Automated Deduction (CADE)})
 @String(AITP = {Conference on Artificial Intelligence and Theorem Proving (AITP)})
 @String(ESEC/FSE = {ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)})
+@String(FSE = {ACM International Conference on the Foundations of Software Engineering (FSE)})
 @String(ICSE = {International Conference on Software Engineering (ICSE)})
 
 % Security
@@ -69,17 +70,19 @@
 @String(FAT = {Conference on Fairness, Accountability, and Transparency (FAccT)})
 @String(OSDI = {Symposium on Operating Systems Design and Implementation (OSDI)})
 @String(PNAS = {National Academy of Sciences (PNAS)})
+@String(NeSy = {Conference on Neurosymbolic Learning and Reasoning})
 
-% Survey
+% Surveys
+% ================================================
 @inproceedings{survey_li2024,
   title={A survey on deep learning for theorem proving},
   author={Li, Zhaoyu and Sun, Jialiang and Murphy, Logan and Su, Qidong and Li, Zenan and Zhang, Xian and Yang, Kaiyu and Si, Xujie},
   booktitle=COLM,
   year={2024}
 }
-% EOC of Survey
+% EOC of Surveys
 
-% Datasets and Benchmark
+% Math Datasets and Benchmark
 % ================================================
 @inproceedings{leanworkbook_ying2024,
   title={Lean workbook: A large-scale lean problem set formalized from natural language math problems},
@@ -101,10 +104,9 @@
   booktitle=arXiv,
   year={2025}
 }
+% EOC of Math Datasets and Benchmark
 
-% EOC of Datasets and Benchmark
-
-% Data Synthesis
+% Data Synthesis and Self-Evolution
 % ================================================
 @inproceedings{stp_dong2025,
   title={STP: Self-play LLM Theorem Provers with Iterative Conjecturing and Proving},
@@ -112,75 +114,17 @@
   booktitle=ICML,
   year={2025}
 }
-% EOC of Data Synthesis
-
-% Hammer-like Prover
-% ================================================
-@inproceedings{leansmt_mohamed2025,
-  title={Lean-SMT: An SMT Tactic for Discharging Proof Goals in Lean},
-  author={Mohamed, Abdalrhman and Mascarenhas, Tomaz and Khan, Harun and Barbosa, Haniel and Reynolds, Andrew and Qian, Yicheng and Tinelli, Cesare and Barrett, Clark},
-  booktitle=CAV,
-  year={2025}
-}
-
-@inproceedings{leanauto_qian2025,
-  title={Lean-auto: An Interface between Lean 4 and Automated Theorem Provers},
-  author={Qian, Yicheng and Clune, Joshua and Barrett, Clark and Avigad, Jeremy},
-  booktitle=CAV,
-  year={2025}
-}
-% EOC of Hammer-like ATPs
-
-% Tree Search-based Prover
-% ================================================
-@inproceedings{mps_prover_liang2025,
-  title={MPS-Prover: Advancing Stepwise Theorem Proving by Multi-Perspective Search and Data Curation},
-  author={Liang, Zhenwen and Song, Linfeng and Li, Yang and Yang, Tao and Zhang, Feng and Mi, Haitao and Yu, Dong},
-  booktitle=arXiv,
-  year={2025}
-}
-% EOC of Tree Search-based Prover
-
-% DSP-like Prover
-% ================================================
-@inproceedings{dsp_jiang2023,
-  title={Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs},
-  author={Jiang, Albert Q and Welleck, Sean and Zhou, Jin P and Li, Wenda and Liu, Jiacheng and Jamnik, Mateja and Lacroix, Timothée and Wu, Yuhuai and Lample, Guillaume},
-  booktitle=ICLR,
-  year={2023}
-}
-
-@inproceedings{erp_li2025,
-  title={Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis},
-  author={Liu, Haoxiong and Sun, Jiacheng and Li, Zhenguo and Yao, Andrew C},
-  booktitle=ICML,
-  year={2025}
-}
-% EOC of DSP-like ATPs
-
-% LLM-based Whole Proof Generator
-% ================================================
-@inproceedings{baldur_first2023,
-  title={Baldur: Whole-Proof Generation and Repair with Large Language Models},
-  author={First, Emily and Rabe, Markus N and Ringer, Talia and Brun, Yuriy},
-  booktitle=ESEC/FSE,
-  year={2023}
-}
-
-@inproceedings{stepfun_prover_shang2025,
-  title={StepFun-Prover Preview: Let's Think and Verify Step by Step},
-  author={Shang, Shijie and Wan, Ruosi and Peng, Yue and Wu, Yutong and Chen, Xiong-hui and Yan, Jie and Zhang, Xiangyu},
-  booktitle=arXiv,
-  year={2025}
-}
-
-% EOC of LLM-based Whole Proof Generator
+% EOC of Data Synthesis and Self-Evolution
 
 % Autoformalization
 % ================================================
+@inproceedings{autoformalization_survey_weng2025,
+  title={Autoformalization in the Era of Large Language Models: A Survey},
+  author={Weng, Ke and Du, Lun and Li, Sirui and Lu, Wangyue and Sun, Haozhe and Liu, Hengyu and Zhang, Tiancheng},
+  booktitle=arXiv,
+  year={2025}
+}
 
-% Specification
-% ================================================
 @inproceedings{nl2spec_cosler2023,
   title={Nl2spec: Interactively Translating Unstructured Natural Language to Temporal Logics with Large Language Models},
   author={Cosler, Matthias and Hahn, Christopher and Mendoza, Daniel and Schmitt, Frederik and Trippel, Caroline},
@@ -194,8 +138,7 @@
   booktitle=CAV,
   year={2024}
 }
-% EOC of Specification
-
+% EOC of Autoformalization
 
 % Premise Selection
 % ================================================
@@ -234,3 +177,78 @@
   year={2024}
 }
 % EOC of Premise Selection
+
+% Proof Generation
+% ================================================
+
+% Hammer-like Provers
+@inproceedings{leansmt_mohamed2025,
+  title={Lean-SMT: An SMT Tactic for Discharging Proof Goals in Lean},
+  author={Mohamed, Abdalrhman and Mascarenhas, Tomaz and Khan, Harun and Barbosa, Haniel and Reynolds, Andrew and Qian, Yicheng and Tinelli, Cesare and Barrett, Clark},
+  booktitle=CAV,
+  year={2025}
+}
+
+@inproceedings{leanauto_qian2025,
+  title={Lean-auto: An Interface between Lean 4 and Automated Theorem Provers},
+  author={Qian, Yicheng and Clune, Joshua and Barrett, Clark and Avigad, Jeremy},
+  booktitle=CAV,
+  year={2025}
+}
+
+% Tree Search-based Provers
+@inproceedings{mps_prover_liang2025,
+  title={MPS-Prover: Advancing Stepwise Theorem Proving by Multi-Perspective Search and Data Curation},
+  author={Liang, Zhenwen and Song, Linfeng and Li, Yang and Yang, Tao and Zhang, Feng and Mi, Haitao and Yu, Dong},
+  booktitle=arXiv,
+  year={2025}
+}
+
+% Draft-Sketch-Prove Style Provers
+@inproceedings{dsp_jiang2023,
+  title={Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs},
+  author={Jiang, Albert Q and Welleck, Sean and Zhou, Jin P and Li, Wenda and Liu, Jiacheng and Jamnik, Mateja and Lacroix, Timothée and Wu, Yuhuai and Lample, Guillaume},
+  booktitle=ICLR,
+  year={2023}
+}
+
+@inproceedings{erp_li2025,
+  title={Efficient Neural Theorem Proving via Fine-grained Proof Structure Analysis},
+  author={Liu, Haoxiong and Sun, Jiacheng and Li, Zhenguo and Yao, Andrew C},
+  booktitle=ICML,
+  year={2025}
+}
+
+% Whole Proof Generation
+@inproceedings{baldur_first2023,
+  title={Baldur: Whole-Proof Generation and Repair with Large Language Models},
+  author={First, Emily and Rabe, Markus N and Ringer, Talia and Brun, Yuriy},
+  booktitle=ESEC/FSE,
+  year={2023}
+}
+
+@inproceedings{neural_theorem_proving_rao2025,
+  title={Neural Theorem Proving: Generating and Structuring Proofs for Formal Verification},
+  author={Rao, Balaji and Eiers, William and Lipizzi, Carlo},
+  booktitle=NeSy,
+  year={2025}
+}
+
+@inproceedings{stepfun_prover_shang2025,
+  title={StepFun-Prover Preview: Let's Think and Verify Step by Step},
+  author={Shang, Shijie and Wan, Ruosi and Peng, Yue and Wu, Yutong and Chen, Xiong-hui and Yan, Jie and Zhang, Xiangyu},
+  booktitle=arXiv,
+  year={2025}
+}
+
+% EOC of Proof Generation
+
+% Proof Engineering
+% ================================================
+@inproceedings{isabelle_compatibility_luan2025,
+  title={Why the Proof Fails in Different Versions of Theorem Provers: An Empirical Study of Compatibility Issues in Isabelle},
+  author={Luan, Xiaokun and Sanan, David and Hou, Zhe and Xu, Qiyuan and Liu, Chengwei and Cai, Yufan and Liu, Yang and Sun, Meng},
+  booktitle=FSE,
+  year={2025}
+}
+% EOC of Proof Engineering
